@@ -1,0 +1,28 @@
+.offer-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.3); /* Slight red shadow
+  }
+  
+  .offer-card img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .offer-card .card-body {
+    background-color: #131318; /* Dark background */
+    color: white; /* Light text */
+    text-align: center;
+  }
+  
+  .offer-card:hover .card-body {
+    background-color: #f8f9fa; /* Light mode on hover */
+    color: black;
+  }
+   

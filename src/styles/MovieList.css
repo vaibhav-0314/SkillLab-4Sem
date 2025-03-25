@@ -1,0 +1,48 @@
+.movie-container {
+  text-align: center;
+}
+
+.movie-card {
+  position: relative; /* Needed for absolute positioning */
+  height: 600px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-img {
+  width: 100%;
+  height: 600px !important;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Fix: Ensure overlay is at the bottom */
+.movie-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0; /* Initially hidden */
+  background: rgba(30, 28, 28, 0.8);
+  color: rgb(221, 209, 209);
+  text-align: center;
+  overflow: hidden; /* Hide text until hovered */
+  transition: height 0.3s ease-in-out;
+}
+
+/* Show movie info at the bottom on hover */
+.movie-card:hover .movie-info {
+  height: 50%; /* Adjust height as needed */
+  padding: 10px;
+}
+
+.movie-info button {
+  margin-top: 10px;
+}

@@ -1,0 +1,64 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #222 !important; /* Dark background */
+    padding: 10px 20px;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    height: 40px; /* Adjust size */
+    width: auto;
+  }
+  
+  /* Navigation Links */
+  .nav-link {
+    color: white !important;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #e50914 !important; /* Netflix Red */
+  }
+  
+  /* Search Bar */
+  .form-control {
+    width: 250px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Search Button */
+  .btn-outline-light {
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode Toggle */
+  .dark-mode-toggle {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .form-control {
+      width: 180px;
+    }
+  }
+  
