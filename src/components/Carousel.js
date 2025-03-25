@@ -6,11 +6,11 @@ const MovieCarousel = () => {
   return (
     <Carousel className="custom-carousel">
       <Carousel.Item>
-        <img className="carousel-image" src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1742548134606_parthenopeweb.jpg" alt="Movie 1" />
+        <img className="carousel-image" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/chhaava-et00408691-1737623374.jpg" alt="Movie 1" />
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="carousel-image" src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1742538601736_anoraweb.jpg" alt="Movie 2" />
+        <img className="carousel-image" src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1742876499017_1240x300travisscott2025regionalnewdelhipresale.jpg" alt="Movie 2" />
       </Carousel.Item>
 
       <Carousel.Item>
@@ -21,3 +21,11 @@ const MovieCarousel = () => {
 };
 
 export default MovieCarousel;
+
+
+
+
+
+
+
+
