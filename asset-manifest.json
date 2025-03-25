@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SkillLab-4Sem/static/css/main.6a4d63e7.css",
-    "main.js": "/SkillLab-4Sem/static/js/main.1deccc7c.js",
+    "main.js": "/SkillLab-4Sem/static/js/main.41589427.js",
     "static/js/453.93ae2fca.chunk.js": "/SkillLab-4Sem/static/js/453.93ae2fca.chunk.js",
     "index.html": "/SkillLab-4Sem/index.html",
     "main.6a4d63e7.css.map": "/SkillLab-4Sem/static/css/main.6a4d63e7.css.map",
-    "main.1deccc7c.js.map": "/SkillLab-4Sem/static/js/main.1deccc7c.js.map",
+    "main.41589427.js.map": "/SkillLab-4Sem/static/js/main.41589427.js.map",
     "453.93ae2fca.chunk.js.map": "/SkillLab-4Sem/static/js/453.93ae2fca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a4d63e7.css",
-    "static/js/main.1deccc7c.js"
+    "static/js/main.41589427.js"
   ]
 }
