@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Use HashRouter
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { DarkModeProvider } from "./context/DarkModeContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -15,18 +15,18 @@ import MovieList from "./components/MovieList";
 const App = () => {
   return (
     <DarkModeProvider>
-      <Router> {/* Changed from BrowserRouter to HashRouter */}
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movies" element={<Movies />} />
+          <Route path="/movies/list" element={<MovieList />} /> {/* Nested route */}
           <Route path="/sports" element={<Sports />} />
           <Route path="/events" element={<Events />} />
           <Route path="/seatselection" element={<SeatSelection />} />
           <Route path="/login" element={<Login />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/book/:id" element={<Booking />} />
-          <Route path="/movies" element={<MovieList />} />
           <Route path="/book/:movieName" element={<Booking />} />
         </Routes>
       </Router>
